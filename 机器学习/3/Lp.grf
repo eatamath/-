@@ -1,0 +1,109 @@
+;This file was created by Graph (http://www.padowan.dk)
+;Do not change this file from other programs.
+[Graph]
+Version = 4.4.2.543
+MinVersion = 2.5
+OS = Windows NT 6.2 
+
+[Axes]
+xMin = -2.74703435550355
+xMax = 4.54296564449646
+xTickUnit = 0.5
+xGridUnit = 0.5
+yMin = -3.4879263114357
+yMax = 3.80207368856431
+yTickUnit = 0.5
+yGridUnit = 0.5
+AxesColor = clBlue
+GridColor = 0x00FF9999
+ShowLegend = 1
+Radian = 1
+
+[Func1]
+FuncType = 0
+y = 1-abs(x)
+From = -1
+To = 1
+Color = clRed
+
+[Func2]
+FuncType = 0
+y = abs(x)-1
+From = -1
+To = 1
+Color = clRed
+
+[Label1]
+Placement = 0
+Pos = 0.430385469569338;0.52408748166775
+Text = {\\rtf1\\ansi\\ansicpg936\\deff0\\deflang1033\\deflangfe2052{\\fonttbl{\\f0\\fswiss\\fcharset0 Arial;}{\\f1\\fnil Times New Roman;}}\n{\\colortbl ;\\red0\\green0\\blue0;}\n\\viewkind4\\uc1\\pard\\cf1\\lang2052\\f0\\fs24 r=1\\f1\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[Func3]
+FuncType = 0
+y = (1-x^2)^0.5
+From = -1
+To = 1
+Color = clLime
+
+[Func4]
+FuncType = 0
+y = -(1-x^2)^0.5
+Color = clLime
+
+[Label2]
+Placement = 0
+Pos = 0.669488968111613;0.735246102357406
+Text = {\\rtf1\\ansi\\ansicpg936\\deff0\\deflang1033\\deflangfe2052{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}\n{\\colortbl ;\\red0\\green0\\blue0;}\n\\viewkind4\\uc1\\pard\\cf1\\lang2052\\fs24 r=2\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[Func5]
+FuncType = 0
+y = (1-abs(x)^0.5)^2
+From = -1
+To = 1
+Color = clBlue
+
+[Func6]
+FuncType = 0
+y = -(1-abs(x)^0.5)^2
+From = -1
+To = 1
+Color = clBlue
+
+[Label3]
+Placement = 0
+Pos = 0.0956405716101542;0.272708171322922
+Text = {\\rtf1\\ansi\\ansicpg936\\deff0\\deflang1033\\deflangfe2052{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}\n{\\colortbl ;\\red0\\green0\\blue0;}\n\\viewkind4\\uc1\\pard\\cf1\\lang2052\\fs24 r=0.5\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[Func7]
+FuncType = 0
+y = (1-x^10)^0.1
+From = -1
+To = 1
+Color = clFuchsia
+
+[Func8]
+FuncType = 0
+y = -(1-x^10)^0.1
+Color = clFuchsia
+
+[Label4]
+Placement = 0
+Pos = 0.685429201347764;1.1877288609781
+Text = {\\rtf1\\ansi\\ansicpg936\\deff0\\deflang1033\\deflangfe2052{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}\n{\\colortbl ;\\red0\\green0\\blue0;}\n\\viewkind4\\uc1\\pard\\cf1\\lang2052\\fs24 r=10\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[Data]
+TextLabelCount = 4
+FuncCount = 8
+PointSeriesCount = 0
+ShadeCount = 0
+RelationCount = 0
+OleObjectCount = 0
+

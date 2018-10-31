@@ -1,0 +1,16 @@
+graph
+{
+    a--b[label="有",fontname="FangSong",fontsize=14]
+    a--c[label="没有",fontname="FangSong",fontsize=14]
+    c--d[label="有",fontname="FangSong",fontsize=14]
+    c--ce[label="没有",fontname="FangSong",fontsize=14]
+    d--e[label="有",fontname="FangSong",fontsize=14]
+    d--f[label="没有",fontname="FangSong",fontsize=14]
+    a[shape=rectangle,style=rounded,label="是否有房产？",fontname="FangSong",fontsize=14]
+    b[shape=rectangle,style=rounded,label="房子价值超过100万",fontname="FangSong",fontsize=14]
+    c[shape=rectangle,style=rounded,label="有无担保人",fontname="FangSong",fontsize=14]
+    d[shape=rectangle,style=rounded,label="担保人是否有房产",fontname="FangSong",fontsize=14]
+    e[shape="circle",label="可借",fontname="FangSong",fontsize=14]
+    f[shape="circle",label="不借",fontname="FangSong",fontsize=14]
+    ce[shape="circle",label="不借",fontname="FangSong",fontsize=14]
+}

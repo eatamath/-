@@ -224,18 +224,12 @@ for i in range(len(name)):
         # 作出子图
         ax=plt.subplot(sz,sz,i*sz+j+1)
         if i!=j:
-
-            
             # 加入散点
             ax.scatter(Xtest[:,i],Xtest[:,j],s=10,c=Ypred,marker='o')
             # 设置轴的范围
             ax.set_xlim(min(Xtest[:,i]),max(Xtest[:,i]))
             ax.set_ylim(min(Xtest[:,j]),max(Xtest[:,j]))
-            
-
-            
-
-            
+           
         else:
             # 加入属性名称
             name[i]=name[i].rstrip('(cm)')
